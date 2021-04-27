@@ -1,0 +1,25 @@
+.unvisible {
+  display: none;
+}
+
+.visible {
+  display: "";
+  color: red;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  background-color: black;
+  color: white;
+  flex: 1;
+}
+.main {
+  background-color: black;
+  color: white;
+  flex: 1;
+}
+#placehold::placeholder {
+  color: red;
+}
